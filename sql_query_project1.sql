@@ -1,7 +1,11 @@
 --sql retail analysis(p1)
 
-create database sql_project_2;
-drop table if exists retail_sale;
+create 
+	database
+	sql_project_2;
+drop table 
+	if exists
+	retail_sale;
 
 --create table
 
@@ -148,7 +152,7 @@ order by 1;
 
 select year,
        month,
-	   avg
+	avg
 from
 (
 select 
